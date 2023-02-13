@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* css*/
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: rgb(79, 77, 77);
+    color: #333;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 960px;
+}
+
+.head {
+    padding: 20px;
+}
+
+.head .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.head ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.head a {
+    text-decoration: none;
+    color: rgb(221, 70, 53);
+}
+
+.head a:hover {
+    color: rebeccapurple;
+}
+
+.hero {
+    background-image: url(/assets/Wallpaper-ART-1920-x-1080px.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid lightpink;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.penulis {
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: -15px;
+    padding-left: 20px;
+}
+
+.penulis a {
+    text-decoration: none;
+    color: red;
+}
+
+.penulis p {
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.footer {
+    background-color: #333;
+    color: salmon;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/*sidebar*/
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    float: right;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+}
+
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 12px/18px arial;
+}
+
+
+/* clear fix*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+    *zoom: 1;
+}
