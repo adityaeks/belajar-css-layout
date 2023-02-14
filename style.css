@@ -145,10 +145,33 @@ body {
     color: #333;
 }
 
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightskyblue;
+    z-index: 1;
+}
+
 .container {
     background-color: rgb(255, 255, 255);
-    margin: auto;
+    margin: 80px auto;
     width: 960px;
+    position: relative;
+}
+
+.twitter {
+    width: 200px;
+    height: 200px;
+    background-image: url(assets/pngaaa.com-1193787.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -14px;
+    right: -16px;
 }
 
 .head {
@@ -194,6 +217,10 @@ body {
 .main h2 {
     font-weight: bold;
     font-size: 20px;
+}
+
+.main p {
+    padding-bottom: 10px;
 }
 
 .penulis {
